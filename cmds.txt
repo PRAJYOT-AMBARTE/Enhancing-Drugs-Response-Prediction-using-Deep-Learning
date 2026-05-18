@@ -1,0 +1,1 @@
+streamlit run gui/app2.py

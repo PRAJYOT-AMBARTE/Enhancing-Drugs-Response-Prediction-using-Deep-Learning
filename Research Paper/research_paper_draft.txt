@@ -1,0 +1,29 @@
+INTERNATIONAL JOURNAL OF INNOVATIVE RESEARCH IN TECHNOLOGY
+
+Optimizing Drug Response Prediction for Type 2 Diabetes using Machine Learning and GUI Integration
+
+Abstract— This paper presents a simplified and efficient approach to predicting drug response for patients with Type 2 Diabetes using multiple machine learning algorithms. A synthetic dataset of 100 patients and 5 drugs was generated to simulate drug response scenarios. After training and evaluating Random Forest, SVM, and Neural Network models, the Neural Network achieved the highest AUC (0.949). A lightweight Streamlit GUI was developed to allow interactive drug response prediction based on patient features. The proposed framework is practical, interpretable, and scalable for real-time clinical assistance and education.
+
+Keywords— Drug Response Prediction, Type 2 Diabetes, Machine Learning, Streamlit GUI, Neural Network
+
+I. INTRODUCTION
+Type 2 Diabetes is a chronic metabolic condition requiring personalized medication strategies for effective management. Accurate prediction of how a patient responds to a specific drug can significantly improve treatment outcomes and reduce adverse effects. This study focuses on creating a lightweight, interpretable drug response prediction system using synthetic data and modern machine learning techniques.
+
+II. METHODOLOGY
+A synthetic dataset of 100 patients with 10 clinical features was generated. Each patient had a binary response (0 or 1) to five simulated drugs. We used three machine learning algorithms: Random Forest, Support Vector Machine (SVM), and a Multi-layer Perceptron Neural Network. Each model was evaluated using Accuracy, F1 Score, and AUC metrics. The best model (NeuralNet) was integrated into a GUI for user interaction.
+
+III. MODEL COMPARISON
+- Random Forest: Accuracy = 0.85, AUC = 0.919
+- SVM: Accuracy = 0.80, AUC = 0.949
+- Neural Network: Accuracy = 0.85, AUC = 0.949 (selected)
+
+IV. GUI IMPLEMENTATION
+A Streamlit-based GUI was developed that allows users to input patient features via sliders and receive instant drug response predictions. The model outputs a probability-based result and classifies it as either a positive or negative drug response.
+
+V. CONCLUSION
+The lightweight drug response prediction system demonstrates how machine learning and GUI design can be combined to offer real-time insights in healthcare. Future extensions may involve expanding to real datasets and supporting multi-drug interaction prediction.
+
+VI. REFERENCES
+[1] Scikit-learn Documentation
+[2] Streamlit Documentation
+[3] IJIRT Research Template

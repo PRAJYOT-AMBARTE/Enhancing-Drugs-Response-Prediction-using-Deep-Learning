@@ -1,0 +1,12 @@
+flask
+flask-cors
+flask-jwt-extended
+flask-bcrypt
+flask-sqlalchemy
+scikit-learn
+numpy
+pandas
+joblib
+python-dotenv
+PyPDF2
+werkzeug

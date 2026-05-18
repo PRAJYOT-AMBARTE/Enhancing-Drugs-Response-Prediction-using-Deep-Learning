@@ -1,0 +1,26 @@
+These represent general patient health parameters. You can rename them to something meaningful like this:
+
+Original   | Rename To
+feature_1  | Age
+feature_2  | BMI
+feature_3  | Blood Pressure
+feature_4  | Glucose Level
+feature_5  | Insulin Sensitivity
+feature_6  | Cholesterol Level
+feature_7  | Physical Activity Score
+feature_8  | Smoking Index
+feature_9  | Alcohol Consumption Score
+feature_10 | Genetic Risk Score
+
+These are synthetic, but they mimic typical health data used in predicting drug effectiveness for diseases like Type 2 Diabetes.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+These represent whether the patient responded positively (1) or negatively (0) to a drug.
+
+Original | Rename To
+Drug_1   | Metformin
+Drug_2   | Dapagliflozin
+Drug_3   | Sitagliptin
+Drug_4   | Empagliflozin
+Drug_5   | Glipizide
